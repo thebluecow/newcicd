@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_cdltd_cicd_demo.feature_052621</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>feature_052621</name>
+        <script><![CDATA[var feature_052621 = Class.create();
+feature_052621.prototype = {
+    initialize: function() {
+   },
+ 
+    sayHello: function() {
+               return "Hello!";
+    },
+ 
+   type: 'feature_052621'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-29 18:05:54</sys_created_on>
+        <sys_id>bb9a4b539f2402107f4456f57524abdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>feature_052621</sys_name>
+        <sys_package display_value="CICD Demo App" source="x_cdltd_cicd_demo">88c0765b9fa002107f4456f57524ab6d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CICD Demo App">88c0765b9fa002107f4456f57524ab6d</sys_scope>
+        <sys_update_name>sys_script_include_bb9a4b539f2402107f4456f57524abdc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 18:05:54</sys_updated_on>
+    </sys_script_include>
+</record_update>
